@@ -14,6 +14,10 @@
 		730DAE0024ECE73C00259D37 /* MultiModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 730DADFE24ECE73C00259D37 /* MultiModels.xcdatamodeld */; };
 		730DAE0224ECE73D00259D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730DAE0124ECE73D00259D37 /* Assets.xcassets */; };
 		730DAE0524ECE73D00259D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DAE0324ECE73D00259D37 /* LaunchScreen.storyboard */; };
+		730DAE0F24ECE86C00259D37 /* Cookbook.json in Resources */ = {isa = PBXBuildFile; fileRef = 730DAE0E24ECE86C00259D37 /* Cookbook.json */; };
+		730DAE1124ECE87600259D37 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1024ECE87600259D37 /* Struct.swift */; };
+		730DAE1324ECE8AE00259D37 /* CookbookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1224ECE8AD00259D37 /* CookbookModel.swift */; };
+		730DAE1524ECE8FC00259D37 /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1424ECE8FB00259D37 /* ContentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		730DAE0124ECE73D00259D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730DAE0424ECE73D00259D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730DAE0624ECE73D00259D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730DAE0E24ECE86C00259D37 /* Cookbook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cookbook.json; sourceTree = "<group>"; };
+		730DAE1024ECE87600259D37 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		730DAE1224ECE8AD00259D37 /* CookbookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookbookModel.swift; sourceTree = "<group>"; };
+		730DAE1424ECE8FB00259D37 /* ContentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,14 @@
 			children = (
 				730DADF524ECE73C00259D37 /* AppDelegate.swift */,
 				730DADF724ECE73C00259D37 /* SceneDelegate.swift */,
+				730DAE1024ECE87600259D37 /* Struct.swift */,
 				730DADF924ECE73C00259D37 /* ViewController.swift */,
+				730DAE1424ECE8FB00259D37 /* ContentsViewController.swift */,
+				730DAE1224ECE8AD00259D37 /* CookbookModel.swift */,
 				730DADFB24ECE73C00259D37 /* Main.storyboard */,
 				730DAE0124ECE73D00259D37 /* Assets.xcassets */,
 				730DAE0324ECE73D00259D37 /* LaunchScreen.storyboard */,
+				730DAE0E24ECE86C00259D37 /* Cookbook.json */,
 				730DAE0624ECE73D00259D37 /* Info.plist */,
 				730DADFE24ECE73C00259D37 /* MultiModels.xcdatamodeld */,
 			);
@@ -128,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730DAE0F24ECE86C00259D37 /* Cookbook.json in Resources */,
 				730DAE0524ECE73D00259D37 /* LaunchScreen.storyboard in Resources */,
 				730DAE0224ECE73D00259D37 /* Assets.xcassets in Resources */,
 				730DADFD24ECE73C00259D37 /* Main.storyboard in Resources */,
@@ -141,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730DAE1324ECE8AE00259D37 /* CookbookModel.swift in Sources */,
+				730DAE1524ECE8FC00259D37 /* ContentsViewController.swift in Sources */,
 				730DADFA24ECE73C00259D37 /* ViewController.swift in Sources */,
 				730DADF624ECE73C00259D37 /* AppDelegate.swift in Sources */,
 				730DADF824ECE73C00259D37 /* SceneDelegate.swift in Sources */,
+				730DAE1124ECE87600259D37 /* Struct.swift in Sources */,
 				730DAE0024ECE73C00259D37 /* MultiModels.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

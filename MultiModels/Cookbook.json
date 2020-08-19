@@ -1,0 +1,681 @@
+{
+  "cookbookTitle": "SHIRLEY'S COOKBOOK",
+  "cookbookBiline": "\"Everything you need for a Great Party\"",
+  "totalContents": 6,
+  "totalChapters": 3,
+  "totalRecipes": 6,
+  "contents": [
+    {
+      "contentIndex": 0,
+      "contentName": "THE McKERROWS",
+      "biographyCat": [
+        {
+          "biographyContrubutor": "John",
+          "biographyBiline": "A little bit about the contributor.",
+          "biographyText": "The quick brown fox jumped over the lazy dog.",
+          "biographyPostNominals": "Sunbury"
+        }
+      ]
+    },
+    {
+      "contentIndex": 1,
+      "contentName": "THE GARDINIS",
+      "biographyCat": [
+        {
+          "biographyContrubutor": "Shirley",
+          "biographyBiline": "A little bit more about the contributor.",
+          "biographyText": "Sphinx of black quartz, judge my vow.",
+          "biographyPostNominals": "Darwin"
+        }
+      ]
+    },
+    {
+      "contentIndex": 2,
+      "contentName": "THE KELLYS",
+      "biographyCat": [
+        {
+          "biographyContrubutor": "Ray",
+          "biographyBiline": "Not quite so much about the contributor.",
+          "biographyText": "Jackdaws love my big sphinx of quartz.",
+          "biographyPostNominals": "Frankston"
+        }
+      ]
+    },
+    {
+      "contentIndex": 3,
+      "contentName": "THE OTHERS",
+      "biographyCat": [
+        {
+          "biographyContrubutor": "Anon",
+          "biographyBiline": "Nothing about the contributor.",
+          "biographyText": "Pack my box with five dozen liquor jugs.",
+          "biographyPostNominals": "Somewhere"
+        }
+      ]
+    },
+    {
+      "contentIndex": 4,
+      "contentName": "METRIC CONVERSIONS",
+      "conversionCat": [
+        {
+          "conversionType": "OUNCES INTO GRAMMES (approx.)",
+          "conversionTypeFrom": "OZ.",
+          "conversionTypeTo": "GM.",
+          "conversionIncrement": [
+            {
+              "conversionFrom": "1",
+              "conversionTo": "28"
+            },
+            {
+              "conversionFrom": "2",
+              "conversionTo": "57"
+            },
+            {
+              "conversionFrom": "3",
+              "conversionTo": "85"
+            },
+            {
+              "conversionFrom": "4 (¼lb)",
+              "conversionTo": "113"
+            },
+            {
+              "conversionFrom": "5",
+              "conversionTo": "141"
+            },
+            {
+              "conversionFrom": "6",
+              "conversionTo": "170"
+            },
+            {
+              "conversionFrom": "7",
+              "conversionTo": "198"
+            },
+            {
+              "conversionFrom": "8 (½ lb)",
+              "conversionTo": "227"
+            },
+            {
+              "conversionFrom": "9",
+              "conversionTo": "255"
+            },
+            {
+              "conversionFrom": "10",
+              "conversionTo": "283"
+            },
+            {
+              "conversionFrom": "11",
+              "conversionTo": "312"
+            },
+            {
+              "conversionFrom": "12 (¾ lb)",
+              "conversionTo": "340"
+            },
+            {
+              "conversionFrom": "13",
+              "conversionTo": "368"
+            },
+            {
+              "conversionFrom": "14",
+              "conversionTo": "397"
+            },
+            {
+              "conversionFrom": "15",
+              "conversionTo": "426"
+            },
+            {
+              "conversionFrom": "16 (1LB)",
+              "conversionTo": "454"
+            }
+          ]
+        },
+        {
+          "conversionType": "FLUID OUNCES INTO MILLILITRES (approx.)",
+          "conversionTypeFrom": "FL. OZ.",
+          "conversionTypeTo": "ML.",
+          "conversionIncrement": [
+            {
+              "conversionFrom": "1",
+              "conversionTo": "28"
+            },
+            {
+              "conversionFrom": "2",
+              "conversionTo": "57"
+            },
+            {
+              "conversionFrom": "3",
+              "conversionTo": "85"
+            },
+            {
+              "conversionFrom": "4",
+              "conversionTo": "114"
+            },
+            {
+              "conversionFrom": "5 (¼ pint)",
+              "conversionTo": "142"
+            },
+            {
+              "conversionFrom": "6",
+              "conversionTo": "170"
+            },
+            {
+              "conversionFrom": "7",
+              "conversionTo": "199"
+            },
+            {
+              "conversionFrom": "8",
+              "conversionTo": "228"
+            },
+            {
+              "conversionFrom": "9",
+              "conversionTo": "256"
+            },
+            {
+              "conversionFrom": "10 (½ pint)",
+              "conversionTo": "284"
+            },
+            {
+              "conversionFrom": "11",
+              "conversionTo": "312"
+            },
+            {
+              "conversionFrom": "12",
+              "conversionTo": "341"
+            },
+            {
+              "conversionFrom": "13",
+              "conversionTo": "369"
+            },
+            {
+              "conversionFrom": "14",
+              "conversionTo": "398"
+            },
+            {
+              "conversionFrom": "15 (¾ pint)",
+              "conversionTo": "426"
+            },
+            {
+              "conversionFrom": "16",
+              "conversionTo": "454"
+            },
+            {
+              "conversionFrom": "17",
+              "conversionTo": "483"
+            },
+            {
+              "conversionFrom": "18",
+              "conversionTo": "511"
+            },
+            {
+              "conversionFrom": "19",
+              "conversionTo": "540"
+            },
+            {
+              "conversionFrom": "20 (1 pint)",
+              "conversionTo": "568"
+            }
+          ]
+        },
+        {
+          "conversionType": "INCHES INTO CENTREMETRES (approx.)",
+          "conversionTypeFrom": "IN.",
+          "conversionTypeTo": "CM.",
+          "conversionIncrement": [
+            {
+              "conversionFrom": "5",
+              "conversionTo": "13"
+            },
+            {
+              "conversionFrom": "6",
+              "conversionTo": "15"
+            },
+            {
+              "conversionFrom": "7",
+              "conversionTo": "18"
+            },
+            {
+              "conversionFrom": "8",
+              "conversionTo": "20"
+            },
+            {
+              "conversionFrom": "9",
+              "conversionTo": "23"
+            },
+            {
+              "conversionFrom": "10",
+              "conversionTo": "25"
+            },
+            {
+              "conversionFrom": "11",
+              "conversionTo": "28"
+            },
+            {
+              "conversionFrom": "12",
+              "conversionTo": "30"
+            }
+          ]
+        },
+        {
+          "conversionType": "FAHRENHEIT INTO CENTIGRADE",
+          "conversionNote": "TEMPERATURES 100 degrees Centigrade (boiling point) = 212 degrees Fahrenheit",
+          "conversionTypeFrom": "DEG. F",
+          "conversionTypeTo": "DEG. C",
+          "conversionIncrement": [
+            {
+              "conversionFrom": "250",
+              "conversionTo": "121"
+            },
+            {
+              "conversionFrom": "275 Slow",
+              "conversionTo": "135"
+            },
+            {
+              "conversionFrom": "300",
+              "conversionTo": "149"
+            },
+            {
+              "conversionFrom": "325",
+              "conversionTo": "163"
+            },
+            {
+              "conversionFrom": "350 Mod",
+              "conversionTo": "177"
+            },
+            {
+              "conversionFrom": "375",
+              "conversionTo": "191"
+            },
+            {
+              "conversionFrom": "400 Hot",
+              "conversionTo": "205"
+            },
+            {
+              "conversionFrom": "425",
+              "conversionTo": "219"
+            },
+            {
+              "conversionFrom": "450 Very Hot",
+              "conversionTo": "233"
+            },
+            {
+              "conversionFrom": "475",
+              "conversionTo": "246"
+            },
+            {
+              "conversionFrom": "500",
+              "conversionTo": "260"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contentIndex": 5,
+      "contentName": "SPOON AND CUP MEASUREMENTS",
+      "measurementCat": [
+        {
+          "measurementType": "",
+          "measurementTypeFrom": "",
+          "measurementTypeTo": "",
+          "measurementIncrement": [
+            {
+              "measurementFrom": "1 level teaspoon of\n\n\n\n\n\n",
+              "measurementItem": "butter\ngolden syrup\nhoney\nlard\nmargarine\nfat\n",
+              "measurementTo": "equals 1 ounce\n\n\n\n\n\n"
+            },
+            {
+                "measurementFrom": "1½ level teaspoons of\n\n\n\n",
+                "measurementItem": "barley\ngelatine\nrice\nsugar\n",
+                "measurementTo": "equals 1 ounce\n\n\n\n"
+            },
+            {
+                "measurementFrom": "2 level teaspoons of\n\n\n\n\n\n\n\n",
+                "measurementItem": "cocoa\ncornflour\ncurrants\ncustard powder\nflour\nicing sugar\nsago\nsultanas\n",
+                "measurementTo": "equals 1 ounce\n\n\n\n\n\n\n\n"
+            },
+            {
+                "measurementFrom": "1 measuring cup of\n\n\n",
+                "measurementItem": "breadcrumbs (soft white)\ncoconut\nsuet (finely grated)\n",
+                "measurementTo": "equals 2-3 ounces\nequals 3 ounces\nequals 3½ ounces\n"
+            },
+            {
+                "measurementFrom": "1 measuring cup of\n\n\n\n\n",
+                "measurementItem": "flour\nicing sugar\nground nuts\ncurrants\ncocoa\n",
+                "measurementTo": "equals 4 ounces\n\n\n\n\n"
+            },
+            {
+              "measurementFrom": "1 measuring cup of\n\n\n",
+              "measurementItem": "peel (chopped)\nrice (ground)\nsugar (brown, loosely packed)\nsultanas\n",
+              "measurementTo": "equals 5 ounces\n\n\n"
+            },
+            {
+              "measurementFrom": "1 measuring cup of\n\n\n",
+              "measurementItem": "dates (chopped)\nsago\nsugar (brown, firmly packed)\ntapioca\n",
+              "measurementTo": "equals 6 ounces\n\n\n"
+            },
+            {
+              "measurementFrom": "1 measuring cup of\n",
+              "measurementItem": "rice\n",
+              "measurementTo": "equals 7 ounces\n"
+            },
+            {
+              "measurementFrom": "1 measuring cup of\n\n\n",
+              "measurementItem": "butter\nlard\nmargarine\n",
+              "measurementTo": "equals 8 ounces\n\n\n"
+            },
+            {
+              "measurementFrom": "1 measuring cup of\n\n",
+              "measurementItem": "honey\ngolden syrup\n",
+              "measurementTo": "equals 12 ounces\n\n"
+            },
+            {
+              "measurementFrom": "2 measuring cups of\n",
+              "measurementItem": "liquid\n",
+              "measurementTo": "equals 16 ounces\n"
+            },
+            {
+              "measurementFrom": "2½ measuring cups of\n",
+              "measurementItem": "liquid\n",
+              "measurementTo": "equals 1 pint\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contentIndex": 6,
+      "contentName": "INDEX",
+      "contentsList": [
+        {
+          "contentItem": "SOUPS",
+          "contentPage": "1-10"
+        },
+        {
+          "contentItem": "ENTREES AND MAINS",
+          "contentPage": "11-20"
+        },
+        {
+          "contentItem": "FISH AND SEAFOOD",
+          "contentPage": "21-30"
+        },
+        {
+          "contentItem": "VEGETABLES",
+          "contentPage": "31-40"
+        },
+        {
+          "contentItem": "CHUTNEYS AND PICKLES",
+          "contentPage": "41-50"
+        },
+        {
+          "contentItem": "DRESSINGS AND SAUCES",
+          "contentPage": "51-60"
+        },
+        {
+          "contentItem": "DESSERTS",
+          "contentPage": "61-70"
+        },
+        {
+          "contentItem": "CAKES BISCUITS BUNS",
+          "contentPage": "71-80"
+        },
+        {
+          "contentItem": "PASTRIES",
+          "contentPage": "81-90"
+        },
+        {
+          "contentItem": "ODDS AND ENDS",
+          "contentPage": "91-100"
+        },
+        {
+          "contentItem": "CONTRIBUTORS",
+          "contentPage": "100-110"
+        }
+      ],
+      "contentImage": "000_index"
+    },
+    {
+      "contentIndex": 7,
+      "contentName": "CONTRIBUTORS",
+      "recipeContributorPreamble": "Many thanks to the following people who have contributed to my recipes, as the app would be much thinner without them!",
+      "recipeContributorList": [
+        {
+          "recipeContributor": "Alice One"
+        },
+        {
+          "recipeContributor": "Brian Two"
+        },
+        {
+          "recipeContributor": "Candice Three"
+        },
+        {
+          "recipeContributor": "Darren Four"
+        },
+        {
+          "recipeContributor": "Enid Five"
+        },
+        {
+          "recipeContributor": "Frank Six"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "chapterIndex": 0,
+      "chapterName": "POULTRY",
+      "chapterImage": "09-poultry",
+        "recipes": [
+          {
+            "recipeIndex": 0,
+            "recipeDetails": {
+              "recipeName": "CHOOK PLACEHOLDER",
+              "recipePartList": [
+                {
+                  "recipePartLabel": "",
+                  "recipeIngredientsList": [
+                    {
+                      "recipeIngredientsName": "A bit of this"
+                    },
+                    {
+                      "recipeIngredientsName": "And a bit of that"
+                    }
+                  ],
+                  "recipeSteps": "Mix the stuff together and cook.."
+                }
+              ]
+            }
+          }
+        ]
+      },
+    {
+      "chapterIndex": 1,
+      "chapterName": "DESSERTS",
+      "chapterImage": "10-desserts",
+      "recipes": [
+        {
+          "recipeIndex": 1,
+          "recipeDetails": {
+            "recipeName": "SYRUP SPONGE ROLL (S1)",
+            "recipePartList": [
+              {
+                "recipePartLabel": "",
+                "recipeIngredientsList": [
+                  {
+                    "recipeIngredientsName": "3 eggs"
+                  },
+                  {
+                    "recipeIngredientsName": "½ cup castor sugar"
+                  },
+                  {
+                    "recipeIngredientsName": "1 tablespoon golden syrup/honey"
+                  },
+                  {
+                    "recipeIngredientsName": "¾ cup arrowroot/cornflour"
+                  },
+                  {
+                    "recipeIngredientsName": "1 teaspoon cream of tartar"
+                  },
+                  {
+                    "recipeIngredientsName": "½ teaspoon bicarb soda"
+                  },
+                  {
+                    "recipeIngredientsName": "2 tablespoons castor sugar (extra)"
+                  },
+                  {
+                    "recipeIngredientsName": "¼ cup jam"
+                  },
+                  {
+                    "recipeIngredientsName": "1x300ml whipped cream"
+                  }
+                ],
+                "recipeSteps": "Beat egg whites until thick, add egg yolks and sugar beating well until sugar is dissolved. Stir in golden syrup until combined. Sift together mix 4 dry ingredients. Fold lightly into egg mixture. Pour mixture into greased and paper lined swiss roll tin. Bake in moderate oven for 15-20 minutes or until cooked. Turn sponge onto greaseproof paper sprinkled with castor sugar. Roll up loosely, cool completely. Unroll and spread with jam and whipped cream. Re-roll and serve sliced."
+              }
+            ],
+            "recipeOrigin": "I got this from Elaine Lockett"
+          }
+        },
+        {
+          "recipeIndex": 2,
+          "recipeDetails": {
+            "recipeName": "FI’S FABULOUS FUDGE (S2)",
+            "recipePreamble": "Sinfully fattening but simply scrummy. No matter what time of the day you wish to present this for consumption it is always a huge hit.",
+            "recipePartList": [
+              {
+                "recipePartLabel": "Base:",
+                "recipeIngredientsList": [
+                  {
+                    "recipeIngredientsName": "2 packets malto/marie bickies"
+                  },
+                  {
+                    "recipeIngredientsName": "½lb butter"
+                  },
+                  {
+                    "recipeIngredientsName": "1 tin condensed milk"
+                  },
+                  {
+                    "recipeIngredientsName": "2 tablespoons golden syrup"
+                  }
+                ],
+                "recipeSteps": "Crush bickies, melt milk, butter and syrup over heat. Add to bickies — press into flat, paper lined swiss roll tin. Cool."
+              },
+              {
+                "recipePartLabel": "Topping:",
+                "recipeIngredientsList": [
+                  {
+                    "recipeIngredientsName": "300g dairy milk chocolate"
+                  },
+                  {
+                    "recipeIngredientsName": "a suggestion of copha"
+                  }
+                ],
+                "recipeSteps": "Melt over double sucepan, stir then pour over base. Slice into bite size pieces when set."
+              }
+            ],
+            "recipeOrigin": "Aunty Fi gave this to me",
+            "recipeImage": "2-fudge"
+          }
+        },
+        {
+          "recipeIndex": 3,
+          "recipeDetails": {
+            "recipeName": "APPLE SLICE (S3)",
+            "recipePreamble": "Apple Slices is perfect for afternoon tea in the early Autumn amongst the shaded trees.",
+            "recipeServes": "Serves: 6",
+            "recipePartList": [
+              {
+                "recipePartLabel": "Pastry:",
+                "recipeIngredientsList": [
+                  {
+                    "recipeIngredientsName": "4oz butter"
+                  },
+                  {
+                    "recipeIngredientsName": "1 cup cornflour"
+                  },
+                  {
+                    "recipeIngredientsName": "½ cup sugar"
+                  },
+                  {
+                    "recipeIngredientsName": "2 teaspoons baking powder"
+                  },
+                  {
+                    "recipeIngredientsName": "2 eggs"
+                  },
+                  {
+                    "recipeIngredientsName": "1 cup flour"
+                  }
+                ],
+                "recipeSteps": "Combine ingredients and make pastry. Spread ½ pastry in bottom of 28cmx18cm tray."
+              },
+              {
+                "recipePartLabel": "Filling:",
+                "recipeIngredientsList": [
+                  {
+                    "recipeIngredientsName": "3 cooking apples, grated"
+                  },
+                  {
+                    "recipeIngredientsName": "4 tablespoons sugar"
+                  },
+                  {
+                    "recipeIngredientsName": "rind 1 lemon"
+                  }
+                ],
+                "recipeSteps": "Combine ingredients and make filling. Cover pastry with filling then remaining pastry. Bake 30 minutes at 350F."
+              },
+              {
+                "recipePartLabel": "Icing:",
+                "recipeIngredientsList": [
+                  {
+                    "recipeIngredientsName": "2 cups icing sugar"
+                  },
+                  {
+                    "recipeIngredientsName": "juice 1 lemon"
+                  },
+                  {
+                    "recipeIngredientsName": "cinnamon"
+                  }
+                ],
+                "recipeSteps": "Ice while just warm. Cut into squares. Freezes well."
+              }
+            ],
+            "recipeOrigin": "Mary Cail sent me this"
+          }
+        },
+        {
+          "recipeIndex": 4,
+          "recipeDetails": {
+            "recipeName": "CHEAP TEA BROWNIE (U)",
+            "recipePreamble": "And . . . another super fattening, super delicious creation is my Cheap Tea Brownie, which originally was my mother’s recipe, which I’ve dolled up a little. Jackaroos, Merchant Bankers, Dalgety Farmers’ employees, and the Pollies have all witnessed it and love it. I’m sure you will too. \n\nThe recipe is safe to double or triple. I'll leave that decision to you.",
+            "recipeAsBlurb": "Place in a decent sized bowl, the following: 1 lb mixed fruit, 1 cup raw sugar and 1 cup tea. Soak overnight or during the day. \n\nAdd one egg (or just the white if cholesterol is a problem, in fact you may safely omit egg yolks from any of the recipes), mixed spice, 2 cups wholemeal S R flour. Also add any left over jam, or a suggestion of stewed fruit, or bran, if you fancy. \n\nCombine well and pour into either a loaf/round tin which has been well greased. \n\nBake in moderate oven for ¾ hour to 1 hour. \n\nTurn onto wire rack. Butter while still warm or leave to cool.",
+            "recipeOrigin": "My mother."
+          }
+        }
+      ]
+    },
+    {
+      "chapterIndex": 2,
+      "chapterName": "AFTER DINNER",
+      "chapterImage": "11-after-dinner",
+      "recipes": [
+        {
+          "recipeIndex": 5,
+          "recipeDetails": {
+            "recipeName": "AFTER DINNER PLACEHOLDER",
+            "recipePartList": [
+              {
+                "recipeIngredientsList": [
+                  {
+                    "recipeIngredientsName": "A bit of this"
+                  },
+                  {
+                    "recipeIngredientsName": "And a bit of that"
+                  }
+                ],
+                "recipeSteps": "Mix the stuff together and cook."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+

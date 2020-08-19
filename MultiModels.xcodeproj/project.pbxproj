@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		730DADF624ECE73C00259D37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DADF524ECE73C00259D37 /* AppDelegate.swift */; };
 		730DADF824ECE73C00259D37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DADF724ECE73C00259D37 /* SceneDelegate.swift */; };
-		730DADFA24ECE73C00259D37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DADF924ECE73C00259D37 /* ViewController.swift */; };
 		730DADFD24ECE73C00259D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DADFB24ECE73C00259D37 /* Main.storyboard */; };
 		730DAE0024ECE73C00259D37 /* MultiModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 730DADFE24ECE73C00259D37 /* MultiModels.xcdatamodeld */; };
 		730DAE0224ECE73D00259D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730DAE0124ECE73D00259D37 /* Assets.xcassets */; };
@@ -18,13 +17,14 @@
 		730DAE1124ECE87600259D37 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1024ECE87600259D37 /* Struct.swift */; };
 		730DAE1324ECE8AE00259D37 /* CookbookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1224ECE8AD00259D37 /* CookbookModel.swift */; };
 		730DAE1524ECE8FC00259D37 /* ContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1424ECE8FB00259D37 /* ContentsViewController.swift */; };
+		730DAE1B24ECECF200259D37 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1A24ECECF200259D37 /* TableModel.swift */; };
+		730DAE1D24ECEEB800259D37 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DAE1C24ECEEB800259D37 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		730DADF224ECE73C00259D37 /* MultiModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		730DADF524ECE73C00259D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		730DADF724ECE73C00259D37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		730DADF924ECE73C00259D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		730DADFC24ECE73C00259D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		730DADFF24ECE73C00259D37 /* MultiModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiModels.xcdatamodel; sourceTree = "<group>"; };
 		730DAE0124ECE73D00259D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		730DAE1024ECE87600259D37 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		730DAE1224ECE8AD00259D37 /* CookbookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookbookModel.swift; sourceTree = "<group>"; };
 		730DAE1424ECE8FB00259D37 /* ContentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsViewController.swift; sourceTree = "<group>"; };
+		730DAE1A24ECECF200259D37 /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
+		730DAE1C24ECEEB800259D37 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +68,29 @@
 		730DADF424ECE73C00259D37 /* MultiModels */ = {
 			isa = PBXGroup;
 			children = (
-				730DADF524ECE73C00259D37 /* AppDelegate.swift */,
-				730DADF724ECE73C00259D37 /* SceneDelegate.swift */,
+				730DAE0E24ECE86C00259D37 /* Cookbook.json */,
 				730DAE1024ECE87600259D37 /* Struct.swift */,
-				730DADF924ECE73C00259D37 /* ViewController.swift */,
-				730DAE1424ECE8FB00259D37 /* ContentsViewController.swift */,
 				730DAE1224ECE8AD00259D37 /* CookbookModel.swift */,
+				730DAE1A24ECECF200259D37 /* TableModel.swift */,
+				730DAE1424ECE8FB00259D37 /* ContentsViewController.swift */,
+				730DAE1C24ECEEB800259D37 /* TableViewController.swift */,
 				730DADFB24ECE73C00259D37 /* Main.storyboard */,
+				730DAE1624ECEBA000259D37 /* Cupboard */,
 				730DAE0124ECE73D00259D37 /* Assets.xcassets */,
 				730DAE0324ECE73D00259D37 /* LaunchScreen.storyboard */,
-				730DAE0E24ECE86C00259D37 /* Cookbook.json */,
 				730DAE0624ECE73D00259D37 /* Info.plist */,
 				730DADFE24ECE73C00259D37 /* MultiModels.xcdatamodeld */,
 			);
 			path = MultiModels;
+			sourceTree = "<group>";
+		};
+		730DAE1624ECEBA000259D37 /* Cupboard */ = {
+			isa = PBXGroup;
+			children = (
+				730DADF524ECE73C00259D37 /* AppDelegate.swift */,
+				730DADF724ECE73C00259D37 /* SceneDelegate.swift */,
+			);
+			path = Cupboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +167,12 @@
 			files = (
 				730DAE1324ECE8AE00259D37 /* CookbookModel.swift in Sources */,
 				730DAE1524ECE8FC00259D37 /* ContentsViewController.swift in Sources */,
-				730DADFA24ECE73C00259D37 /* ViewController.swift in Sources */,
 				730DADF624ECE73C00259D37 /* AppDelegate.swift in Sources */,
+				730DAE1D24ECEEB800259D37 /* TableViewController.swift in Sources */,
 				730DADF824ECE73C00259D37 /* SceneDelegate.swift in Sources */,
 				730DAE1124ECE87600259D37 /* Struct.swift in Sources */,
 				730DAE0024ECE73C00259D37 /* MultiModels.xcdatamodeld in Sources */,
+				730DAE1B24ECECF200259D37 /* TableModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
